@@ -23,7 +23,7 @@ class Ui_dialog(object):
     def setupUi(self, dialog):
         if not dialog.objectName():
             dialog.setObjectName(u"dialog")
-        dialog.resize(380, 442)
+        dialog.resize(227, 317)
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -98,6 +98,7 @@ class Ui_dialog(object):
         sizePolicy2.setVerticalStretch(0)
         sizePolicy2.setHeightForWidth(self.mainBody.sizePolicy().hasHeightForWidth())
         self.mainBody.setSizePolicy(sizePolicy2)
+        self.mainBody.setMinimumSize(QSize(227, 252))
         self.verticalLayout_2 = QVBoxLayout(self.mainBody)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.descriptionEdit = QPlainTextEdit(self.mainBody)

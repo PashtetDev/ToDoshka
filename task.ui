@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>380</width>
-    <height>442</height>
+    <width>227</width>
+    <height>317</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -114,6 +114,12 @@ background-color:  #DEE2E6;
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>227</width>
+       <height>252</height>
+      </size>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
