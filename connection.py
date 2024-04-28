@@ -16,7 +16,7 @@ class Data:
             return False
 
         query = QtSql.QSqlQuery()
-        query.exec("CREATE TABLE IF NOT EXISTS backlog (ID integer primary key AUTOINCREMENT, Title VARCHAR(30), "
+        query.exec("CREATE TABLE IF NOT EXISTS backlog (ID В integer primary key AUTOINCREMENT, Title VARCHAR(30), "
                    "Description VARCHAR(100), Deadline VARCHAR(20), Status VARCHAR(20))")
         return True
 

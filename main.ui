@@ -273,14 +273,14 @@ boarder: none;
          <property name="showGrid">
           <bool>false</bool>
          </property>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>100</number>
+         </attribute>
          <attribute name="horizontalHeaderDefaultSectionSize">
-          <number>80</number>
+          <number>100</number>
          </attribute>
          <attribute name="horizontalHeaderHighlightSections">
           <bool>true</bool>
-         </attribute>
-         <attribute name="horizontalHeaderMinimumSectionSize">
-          <number>100</number>
          </attribute>
          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
           <bool>false</bool>
@@ -295,7 +295,7 @@ boarder: none;
           <bool>true</bool>
          </attribute>
          <attribute name="verticalHeaderDefaultSectionSize">
-          <number>0</number>
+          <number>24</number>
          </attribute>
          <attribute name="verticalHeaderHighlightSections">
           <bool>false</bool>

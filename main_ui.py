@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(500, 416)
+        MainWindow.resize(500, 413)
         font = QFont()
         font.setFamilies([u"Segoe UI Light"])
         font.setPointSize(12)
@@ -172,13 +172,13 @@ class Ui_MainWindow(object):
         self.tableView.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.tableView.setShowGrid(False)
         self.tableView.horizontalHeader().setMinimumSectionSize(100)
-        self.tableView.horizontalHeader().setDefaultSectionSize(80)
+        self.tableView.horizontalHeader().setDefaultSectionSize(100)
         self.tableView.horizontalHeader().setHighlightSections(True)
         self.tableView.horizontalHeader().setProperty("showSortIndicator", False)
         self.tableView.horizontalHeader().setStretchLastSection(True)
         self.tableView.verticalHeader().setVisible(False)
         self.tableView.verticalHeader().setCascadingSectionResizes(True)
-        self.tableView.verticalHeader().setDefaultSectionSize(0)
+        self.tableView.verticalHeader().setDefaultSectionSize(24)
         self.tableView.verticalHeader().setHighlightSections(False)
         self.tableView.verticalHeader().setProperty("showSortIndicator", False)
 
